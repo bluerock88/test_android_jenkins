@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/Users/phandinhlam/Documents/Axe/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/phandinhlam/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/phandinhlam/Documents/Axe/app/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/phandinhlam/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/phandinhlam/Documents/Axe/app/.externalNativeBuild/cmake/release/arm64-v8a --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/phandinhlam/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/phandinhlam/Library/Android/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/phandinhlam/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/phandinhlam/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/phandinhlam/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/phandinhlam/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/phandinhlam/Documents/Axe/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/phandinhlam/Documents/Axe/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/phandinhlam/Documents/Axe/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so",
+			"toolchain" : "11720280374609993983"
+		}
+	},
+	"toolchains" : 
+	{
+		"11720280374609993983" : 
+		{
+			"cCompilerExecutable" : "/Users/phandinhlam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/phandinhlam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
